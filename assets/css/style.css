@@ -1,0 +1,122 @@
+/* GLOBAL */
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans.woff2') format('woff2');
+}
+body {
+    background: #f1f1f1;
+}
+.font-bold {
+  font-weight: bold;
+}
+.font-larger {
+  font-size: larger;
+}
+.color-delete {
+  color: #e74c3c;
+}
+.color-edit {
+  color: #3498db;
+}
+.color-view {
+  color: #e67e22;
+}
+.text-right {
+  text-align: right;
+}
+.margintop15 {
+  margin-top: 15px;
+}
+.marginbottom15 {
+  margin-bottom: 15px !important;
+}
+.marginbottom30 {
+  margin-bottom: 30px;
+}
+.paddingtb10 {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.paddingtop15 {
+  padding-top: 15px;
+}
+.border1 {
+  border: 1px solid;
+}
+.border-top1 {
+  border-top: 1px solid #EFEFEF;
+}
+
+.page-header .navbar .topbar-actions .btn-group-img .btn {
+    background: transparent;
+}
+.page-header .navbar .topbar-actions .btn-group-img .btn>span {
+    color: #000;
+}
+.page-header .navbar .navbar-nav>li>a {
+    background: none;
+}
+.page-header .navbar .navbar-nav li.selected>a {
+    color: #009dc7;
+}
+.page-header .navbar .navbar-nav>li:hover>a {
+  color: #fff;
+}
+.dropdown-menu-v2 {
+  background: #fff;
+}
+.dropdown-menu-v2:before {
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: #fff;
+}
+.dropdown-menu-v2>li>a:focus, .dropdown-menu-v2>li>a:hover {
+  background: #009dc7;
+  color: #fff;
+}
+.dropdown-menu-v2 .divider {
+  background: #f5f5f5;
+}
+.dashboard-stat .visual-text {
+  font-size: 16px;
+  color: #fff;
+  width: auto;
+  margin-bottom: 30px;
+}
+.dashboard-stat .details .number {
+  padding-top: 40px;
+}
+.dashboard-other-text {
+  line-height: 25px;
+}
+.profile-userpic img {
+  height: auto;
+}
+.progress-bar {
+    box-shadow: none;
+    position: relative;
+    border-radius: 25px;
+}
+.portlet.light .form .form-body, .portlet.light .portlet-form .form-body {
+    padding-left: 0;
+    padding-right: 0;
+}
+.form .form-body, .portlet-form .form-body {
+    padding: 20px;
+}
+
+/* KENDO GRID */
+.k-grid-header th.k-header {
+  text-align: center;
+  vertical-align: middle;
+}
+
+@media (min-width: 992px) {
+    .page-header .navbar-fixed-top {
+        background: #f1f1f1;
+    }
+}
